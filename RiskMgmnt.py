@@ -40,7 +40,7 @@ def display_results(stock_price, account_value):
         print(f"8% First target profit: ${result['first_target']}")
 
 def main():
-    account_value = 102000
+    account_value = # 25000
     while True:
         try:
             stock_price = float(input("\nEnter stock price (or press Ctrl+C to exit): $"))
